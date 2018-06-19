@@ -1,0 +1,1 @@
+export const fatorial = (n: number): number => (n === 0 ? 1 : n * fatorial(n -1));
